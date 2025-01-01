@@ -32,7 +32,7 @@ module.exports = class OmniNotifierV3 {
     }
 
     // TEST MODE
-    this.processLastMessages(30);
+    // this.processLastMessages(30);
 
     // Setup mutation observer
     this.messageObserver = new MutationObserver(
